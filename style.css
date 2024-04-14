@@ -1,0 +1,42 @@
+body{
+    background: rgb(95, 109, 70);
+    text-align: center;
+}
+#search{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 5rem;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    border: none;
+    margin: 0 auto 0 0rem;
+    background-color: rgb(95, 109, 70);
+    font-size: 2rem;
+}
+#search input{
+    width: 70%;
+    height: 3rem;
+    margin-left: 1rem;
+    padding-left: 2rem;
+    border-radius: 10px;
+}
+#search button{
+    height: 3rem;
+    background-color: rgb(72, 69, 226);
+    color: aliceblue;
+    border-radius: 10px;
+}
+div{
+    background-color: azure;
+    height: auto;
+    width: 300px;
+    overflow: hidden;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    margin: 2rem;
+    display: inline-block;
+}
+h1{
+    text-align: center;
+}
